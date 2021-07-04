@@ -1,0 +1,133 @@
+/* 
+ Theme Name:   Twenty Twenty Child
+ Theme URI:    https://homescriptone.com
+ Description:  A child theme for 2020
+ Author:       HomeScript
+ Author URI:   https://homescriptone.com
+ Template:     twentytwenty
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+ /* == Add your own styles below this line ==
+--------------------------------------------*/
+
+/* .homescript-menu-sticky {    
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+    
+     */
+
+.nav-toggler {
+position: absolute;
+/* bottom: 0; */
+/* right: 0; */
+/* top: 0; */
+left: 85% !important;
+/* width: 6.6rem; */
+}
+
+header#site-header{
+    background-color: #4064af !important;
+    color : white !important;
+    padding: 50px 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: unset;
+    padding-left: 50px;
+}
+
+header#site-header a {
+    color : white;
+}
+
+header.entry-header{
+    display: none !important;
+}
+
+.usn-important-pricing-column{
+    border-color: #F88E40;
+    width: 100%;
+}
+
+a.ek-link{
+    color : #4064af !important;
+}
+
+.footer-top-hidden #site-footer, .footer-top-visible .footer-nav-widgets-wrapper{
+    margin-top: unset !important;
+}
+
+li#menu-item-171 span{
+    display: none !important;
+}
+
+ 
+li#menu-item-171 span .menu-item i._mi{
+    margin-top: unset !important;
+}
+
+li#menu-item-172 a{
+    background-color: unset !important;
+    border-style: solid;
+    border-color: white;
+}
+
+li#menu-item-175 span.icon{
+    color: white !important;
+}
+
+i.fab , a.social-icon{
+    color : grey;
+    text-decoration: none;
+}
+
+.usn-important-pricing-column {
+    background-color: #4064af !important;
+    color : white !important;
+}
+
+.usn-important-pricing-column a.wp-block-button__link.has-background{
+    background-color: white !important;
+    color : #4064af !important;
+}
+
+div.header-titles-wrapper{
+    justify-content: left !important;
+}
+
+button.toggle.nav-toggler.mobile-nav-toggle{
+    color: white !important;
+}
+
+
+button.toggle.nav-toggler.mobile-nav-toggle  span.toggle-text{
+    display: none !important;
+}
+
+.cover-modal.show-modal > * {
+    cursor: default;
+    background-color: #4064af
+}
+
+
+div.menu-modal.cover-modal.header-footer-group.show-modal.active  a{
+    color : white !important;
+}
+
+div.menu-modal.cover-modal.header-footer-group.show-modal.active li.menu-item-172 a{
+    color: white !important;
+    background-color: unset !important;
+    border-style: solid !important;
+    border-color: white !important;
+}
+
+button.toggle.close-nav-toggle.fill-children-current-color {
+    color: white !important;
+}
+
+ul.footer-menu li.menu-item a{
+    color : #4064af !important;
+}
